@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="VentanasEmergentes\AgregarImagenes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanasEmergentes\CheckInWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanasEmergentes\CheckOutWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanasPrincipales\WindowAdministrador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanasPrincipales\WindowFuncionario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\Habitacion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\Hotel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\ServicioHotelWindows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\Servicios.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\TipoHabitacionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\Usuarios.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="VentanasEmergentes\AgregarImagenes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanasEmergentes\CheckInWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanasEmergentes\CheckOutWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanasPrincipales\WindowAdministrador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanasPrincipales\WindowFuncionario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\Habitacion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\Hotel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\ServicioHotelWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\Servicios.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\TipoHabitacionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\Usuarios.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

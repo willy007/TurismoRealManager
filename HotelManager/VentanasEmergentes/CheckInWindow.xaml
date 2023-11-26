@@ -1,0 +1,14 @@
+﻿<Window x:Class="HotelManager.VentanasEmergentes.CheckInWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManager.VentanasEmergentes"
+        mc:Ignorable="d"
+        Title="CheckInWindow" Height="450" Width="343">
+    <Grid>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="68,27,68,87"/>
+        <Button Content="Agregar" HorizontalAlignment="Left" Margin="186,380,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="68,380,0,0" VerticalAlignment="Top" Width="92"/>
+    </Grid>
+</Window>

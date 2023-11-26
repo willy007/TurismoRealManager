@@ -1,0 +1,14 @@
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\bin\Debug\net7.0\Hotel.Modelo.deps.json
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\bin\Debug\net7.0\Hotel.Modelo.runtimeconfig.json
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\bin\Debug\net7.0\Hotel.Modelo.dll
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\bin\Debug\net7.0\Hotel.Modelo.pdb
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.csproj.AssemblyReference.cache
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.AssemblyInfoInputs.cache
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.AssemblyInfo.cs
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.csproj.CoreCompileInputs.cache
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.dll
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\refint\Hotel.Modelo.dll
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.pdb
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\Hotel.Modelo.genruntimeconfig.cache
+D:\Documents\workstation\Visual_estudio\HotelManager\Hotel.Modelo\obj\Debug\net7.0\ref\Hotel.Modelo.dll

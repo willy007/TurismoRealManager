@@ -1,0 +1,44 @@
+﻿<Window x:Class="HotelManager.VentanasPrincipales.WindowAdministrador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManager.VentanasPrincipales"
+        mc:Ignorable="d"
+        Title="WindowAdministrador" Height="482" Width="800">
+    <Grid>
+
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Height="434">
+            <Rectangle HorizontalAlignment="Center" Stroke="Black" Width="84" RenderTransformOrigin="0.5,0.5" Margin="0,-16,0,-16">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.156"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0.621"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Button ToolTip="Modulo para Hoteles"  HorizontalAlignment="Left" Margin="24,43,0,0" VerticalAlignment="Top" Click="Button_Click" Width="40">
+                <Image Height="33" Width="34" Source="/hotel.png"/>
+            </Button>
+            <Button ToolTip="Modulo de Habitaciones" HorizontalAlignment="Left" Margin="24,0,0,0" VerticalAlignment="Center" Click="Button_Click_2">
+                <Image Height="39" Width="36" Source="/cama.png"/>
+            </Button>
+            <Button  ToolTip="Modulo tipos de Habitacion" Margin="24,92,19,304" Click="Button_Click_3">
+                <Image Height="34" Width="36" Source="/habitacion.png"/>
+            </Button>
+            <Button ToolTip="Modulo de servicios"  HorizontalAlignment="Left" Margin="24,142,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="Button_Click_4">
+                <Image Height="30" Width="32" Source="/public-service.png"/>
+            </Button>
+
+            <Button x:Name="btnUsuarios" ToolTip="Modulo de Usuarios"  HorizontalAlignment="Left" Margin="24,255,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="btnUsuarios_Click">
+                <Image  Height="30" Width="32" Source="/VentanasPrincipales/usuario.png"/>
+            </Button>
+
+        </Grid>
+        <Frame x:Name="mainFrame" Content="" Margin="89,0,0,0" HorizontalAlignment="Left" Width="711" Height="466" VerticalAlignment="Center" IsTabStop="False" NavigationUIVisibility="Hidden" />
+
+
+    </Grid>
+</Window>

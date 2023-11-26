@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ventanas\CheckIn.xaml.cs" />
+    <Compile Remove="Ventanas\CheckOut.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="cama.png" />
+    <None Remove="habitacion.png" />
+    <None Remove="hotel.png" />
+    <None Remove="public-service.png" />
+    <None Remove="VentanasPrincipales\usuario.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Ventanas\CheckIn.xaml" />
+    <Page Remove="Ventanas\CheckOut.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hotel.Modelo\Hotel.Modelo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Iconos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cama.png" />
+    <Resource Include="habitacion.png" />
+    <Resource Include="hotel.png" />
+    <Resource Include="public-service.png" />
+    <Resource Include="VentanasPrincipales\usuario.png" />
+  </ItemGroup>
+
+</Project>
